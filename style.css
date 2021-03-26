@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header{
+    width: 100%;
+    height: 54vh;
+    background-color: #129799;
+  }
+
+  .header-box-parag{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+  }
+
+  .header-box-parag p{
+    margin-right: 4rem;
+  }
+
+  .header-box-parag-p:hover{
+    cursor: pointer;
+    font-weight: 900;
+  }
+
+.header-box-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  .h1-section{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .img-section{
+    width: 50%;
+    max-width: 500px;
+  }
+
+  .header-divs{
+display: flex;
+align-items: flex-end;
+justify-content: center;
+  }
+
+  .div-section {
+margin-right: 4rem;
+  }
+
+  .div-section p{
+    color: white;
+    margin-top: 3rem;
+    font-size: 18px;
+  }
+
+  main{
+    background-color: #FFA185;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .main-box-title{
+    width: 100%;
+  
+
+  }
+
+  .main-box-title h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 27px;
+    
+  }
+  .main-box-title p{
+   width: 60%;
+    font-size: 20px;
+  }
+  
+  .main-section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+  
+  }
+
+
+.imgs{
+  max-width: 430px;
+
+}
+  .div-imgs{
+ display: flex;
+ margin-bottom: 2rem;
+ margin-left: 2rem;
+  
+  }
+  .final-parag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    background: #FFA185;
+
+  }
+
+  .final-parag p {
+    font-weight: 800;
+    font-size: 17px;
+  }
+
+  footer{
+    background-color: #129799;
+    width: 100%;
+    height: 24vh;
+  }
+
+  .imgs-footer{
+    display: flex;
+    align-items: flex-end;
+   width: 100%;
+  }
+
+  .imgs-footer-div{
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+
+  .img-section-footer {
+    margin-left: 2rem;
+  }
+
+
+
+
+  .header-box-parag-footer{
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+  font-size: 18px;
+    color: white;
+
+  }
+
+  .header-box-parag-footer p{
+    margin-right: 4rem;
+    margin-top: 2rem;
+  }
+  
+  .header-box-parag-footer-p:hover{
+    cursor: pointer;
+    font-weight: 900;
+  }
